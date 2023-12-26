@@ -14,9 +14,34 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
   />
+  <script src="https://kit.fontawesome.com/4fb14e23f7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./cart.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navlink">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="./cart.html"><span><i class="fa-solid fa-cart-shopping headicon"></i></span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./cart.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cart-item.html">cart</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-tertiary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
     <div class="cart-item"></div>
     <script src="./cart-item.js"></script>
     <script

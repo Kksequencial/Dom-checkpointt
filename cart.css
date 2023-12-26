@@ -43,3 +43,16 @@
     color: #ffffff !important;
     background-color: #4285F4 !important;
 }
+.headicon{
+    color: #ffffff !important;
+    
+
+}
+.navlink{
+    background-color: #4285F4 !important;
+    display: flex !important;
+
+}
+.text{
+    color: #ffffff !important;
+}
