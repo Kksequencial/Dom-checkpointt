@@ -172,3 +172,4 @@ function updateCartItemCount() {
   // Display the number of items on the cart icon
   cartIcon.innerText = parseInt(totalItems);
 }
+// 

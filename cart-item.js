@@ -65,3 +65,4 @@ function deleteProduct(e) {
     localStorage.setItem('cart', JSON.stringify(newCart));
     location.reload();
 }
+// cart-item
